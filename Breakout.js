@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Breakout - Improved Collision</title>
-  <style>
-    body { display: flex; justify-content: center; align-items: center; height:100vh; background:#111; margin:0; }
-    canvas { width: 400px; height: 800px; background:#000; border:none; display:block; }
-  </style>
-</head>
-<body>
-  <canvas id="game" width="400" height="800"></canvas>
-  <script>
-    const canvas = document.getElementById('game');
+const canvas = document.getElementById('game');
     const ctx = canvas.getContext('2d');
 
     // Grid and brick sizes
@@ -141,6 +128,3 @@
     }
 
     draw();
-  </script>
-</body>
-</html>
